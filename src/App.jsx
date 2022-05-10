@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import SingleQuestion from "./SingleQuestion";
 import data from "./data";
+import { useEffect } from "react";
 
 const App = () => {
   const [questions,] = useState(data);
+
+  useEffect(() => {
+    document.title = "accordion";
+  })
 
   return (
     <main className="flex justify-center items-center h-screen bg-purple-600">
