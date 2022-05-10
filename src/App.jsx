@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <main className="flex justify-center items-center h-screen bg-purple-600">
-      <div className="p-4 mx-10 flex flex-col justify-center space-y-5 rounded-xl lg:flex-row lg:space-y-0 lg:w-[60vw] bg-white">
+      <div className="p-4 mx-5 flex flex-col justify-center space-y-5 rounded-xl lg:flex-row lg:space-y-0 lg:w-[60vw] bg-white">
         <h1 className="font-bold font-mono text-3xl lg:text-2xl p-2">
           questions and answers about login
         </h1>
